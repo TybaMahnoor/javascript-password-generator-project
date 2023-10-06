@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    width:100vw;
+    background:linear-gradient(to right bottom, rgb(72, 242, 248), rgb(255, 0, 200));
+    color:black;
+}
+.container{
+    border:.5px solid #4d1139;
+    border-radius:12px;
+    padding:28px 32px;
+    display:flex;
+    flex-direction:column;
+    background:#fff;
+    box-shadow:8px 8px 4px rgb(107, 248, 220);
+}
+.container h1{
+    color:black;
+    text-shadow:0 0 5px #ff0000, 0 0 10px #0000ff;
+    font-size:40px;
+    margin-block:8px;
+}
+.inputBox{
+    position:relative;
+}
+.inputBox span{
+    position:absolute;
+    top:16px;
+    right:6px;
+    font-size:30px;
+    cursor:pointer;
+}
+.passBox{
+    background-color:#fff;
+    border:2px solid black;
+    padding:10px;
+    width:400px;
+    border-radius:4px;
+    font-size:20px;
+    margin-block:8px;
+}
+.row{
+    display:flex;
+    margin-block:8px;
+}
+.row p , .row label{
+    flex-basis:100%;
+    font-size:18px;
+}
+.row input [type="checkbox"]{
+    width:20px;
+    height:20px;
+}
+.genBtn{
+    background-color:rgb(206, 211, 211);
+    display:inline-block;
+    padding: 15px 25px;
+    text-align:center;
+    font-size:24px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius:15px;
+    box-shadow:0 9px #535050;
+    text-shadow:0 0 5px #ff0000, 0 0 10px #0000ff;
+}
+.genBtn:hover{
+    background-color:#fff;
+}
+.genBtn:active{
+    background-color:aqua;
+    transform:translateY(4px);
+}
+
+
+
+
+
+
+
+
+
+
+
